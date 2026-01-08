@@ -1,4 +1,6 @@
 # FrickTest-Discord-Bot
-Deploying a discord bot via render
+Discord bot deployed via Render (Free Tier)
 
-The branch deploy is the one to use to actually deploy it. 
+Wrapper of deepseek, devstral, & gemmai via openrouter. 
+
+IP of Aadarsh Joshi.
