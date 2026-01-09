@@ -4,8 +4,6 @@ import logging
 from dotenv import load_dotenv
 import os
 import openrouterai
-
-import os
 import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
@@ -29,7 +27,6 @@ handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w'
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
-# every permission needs to be turned on in these intents
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
@@ -131,3 +128,4 @@ async def secret_error(ctx, error):
 
 
 bot.run(token, log_handler=handler, log_level=logging.DEBUG)
+
