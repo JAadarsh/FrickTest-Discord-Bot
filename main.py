@@ -128,4 +128,3 @@ async def secret_error(ctx, error):
 
 
 bot.run(token, log_handler=handler, log_level=logging.DEBUG)
-
